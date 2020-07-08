@@ -2,6 +2,7 @@
   "name": "drszui",
   "version": "1.0.0",
   "private": false,
+  "main": "lib/extend-ui-library.umd.min.js",
   "scripts": {
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
