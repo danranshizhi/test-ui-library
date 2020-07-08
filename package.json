@@ -1,17 +1,21 @@
 {
-  "name": "@danranshizhi/test-ui-library",
-  "version": "0.1.0",
+  "name": "drszui",
+  "version": "1.0.0",
   "private": false,
   "scripts": {
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name @danranshizhi/extend-ui-library --dest lib packages/index.js"
+    "lib": "vue-cli-service build --target lib --name extend-ui-library --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
     "element-ui": "^2.13.2",
     "vue": "^2.6.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danranshizhi/test-ui-library"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
